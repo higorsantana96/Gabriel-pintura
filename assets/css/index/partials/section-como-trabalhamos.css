@@ -1,0 +1,89 @@
+section.como-trabalhamos {
+    padding-top: 6.88rem;
+    padding-bottom: 6.88rem;
+    background: linear-gradient(42deg, #243CB4 24.79%, #00126B 74.54%);
+    text-align: center;
+    color: var(--cor-branco);
+    position: relative;
+    overflow: hidden;
+}
+
+.container-como-trabalhamos {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 1440px;
+}
+
+.titulos-trabalhamos h2 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 1.25rem;
+}
+
+.titulos-trabalhamos h3 {
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: 5rem;
+}
+
+.itens-trabalhamos h4 {
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin: 1.25rem 0 1.25rem 0;
+}
+
+.itens-trabalhamos p {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.itens-trabalhamos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.19rem;
+    z-index: 2;
+}
+
+.itens-trabalhamos .item-um, .item-dois, .item-tres, .item-quatro, .item-cinco, .item-seis {
+    width: 29.1875rem;
+    height: 10rem;
+    border-radius: 1.875rem;
+    border-right: 1px solid rgba(255, 255, 255, 0.50);
+    border-left: 1px solid rgba(255, 255, 255, 0.50);
+    backdrop-filter: blur(20.5px);
+    background-color: rgba(255, 255, 255, 0.001);
+}
+
+.itens-trabalhamos .item-um:hover, .item-dois:hover, .item-tres:hover, .item-quatro:hover, .item-cinco:hover, .item-seis:hover {
+    border: 1px solid rgba(255, 255, 255, 0.50);
+    background-color: rgba(255, 255, 255, 0.021);
+    transform: scale(1.02);
+}
+
+.itens-trabalhamos .item-um p{
+    max-width: 24.8125rem;
+    margin: 0 2.19rem 2.44rem 2.19rem;
+}
+.itens-trabalhamos .item-dois p{
+    max-width: 26.75rem;
+    margin: 0 1.16rem 2.44rem 1.16rem;
+}
+.itens-trabalhamos .item-tres p{
+    max-width: 24.4375rem;
+    margin: 0 2.3rem 2.44rem 2.30rem;
+}
+.itens-trabalhamos .item-quatro p{
+    max-width: 26rem;
+    margin: 0 1.5rem 1.25rem 1.5rem;
+}
+.itens-trabalhamos .item-cinco p{
+    max-width: 23.75rem;
+    margin: 0 2.6rem 2.44rem 2.6rem;
+}
+.itens-trabalhamos .item-seis p{
+    max-width: 22.4375rem;
+    margin: 0 3.3rem 2.44rem 3.3rem;
+}

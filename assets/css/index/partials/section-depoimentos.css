@@ -1,0 +1,109 @@
+section.depoimentos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-top: 6.88rem;
+    padding-bottom: 6.88rem;
+    text-align: center;
+    background: linear-gradient(180deg, #243CB4 13.36%, #00126B 46.36%);
+}
+
+.titulos-depoimentos h2 {
+    font-size: 3rem;
+    font-weight: 700;
+    color: var(--cor-branco);
+    margin-bottom: 1.25rem;
+}
+
+.titulos-depoimentos h3 {
+    font-size: 1.125rem;
+    font-weight: 400;
+    color: var(--cor-branco);
+    margin-bottom: 5rem;
+}
+
+.container-depoimentos {
+    display: flex;
+    justify-content: flex-start;
+    overflow-x: scroll;
+    width: calc(100% - 200px);
+    padding: 10px 0;
+    cursor: e-resize;
+    padding-top: 50px;
+}
+
+section.depoimentos .container-depoimentos:active {
+    cursor: grabbing;
+}
+
+section.depoimentos .container-depoimentos {
+    scrollbar-color: var(--cor-primaria) var(--cor-amarelo);
+    scrollbar-width: thin;
+}
+
+section.depoimentos .container-depoimentos::-webkit-scrollbar-track {
+    background-color: var(--cor-primaria);
+    height: 10px;
+    border-radius: 10px;
+}
+
+section.depoimentos .container-depoimentos::-webkit-scrollbar {
+    height: 10px;
+    border-radius: 10px;
+}
+
+section.depoimentos .container-depoimentos::-webkit-scrollbar-thumb {
+    background-color: var(--cor-primaria);
+    border: 2px solid var(--cor-amarelo);
+    height: 10px;
+    border-radius: 10px;
+}
+
+section.depoimentos .quadro {
+    border-radius: 0.625rem;
+    border-top: 20px solid #F4B400;
+    background: rgba(255, 255, 255, 0.05);
+    box-shadow: 4px 4px 4px 0 rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(20px);
+    margin: 0 20px 40px 0;
+    padding: 0 2.5rem 2.5rem 2.5rem;
+}
+
+section.depoimentos .quadro:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-top: 20px solid var(--cor-branco);
+}
+
+section.depoimentos .quadro .foto {
+    position: absolute;
+    top: -65px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    transition: all 0.3s ease;
+}
+
+section.depoimentos .quadro:hover .foto {
+    transform: translate(-50%, 0) scale(1.1);
+}
+
+section.depoimentos .quadro h4 {
+    color: var(--cor-branco);
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-top: 4.69rem;
+    margin-bottom: 0.5rem;
+}
+
+section.depoimentos .quadro .estrelas {
+    margin-bottom: 1.88rem;
+}
+
+section.depoimentos .quadro p {
+    color: #B2B0B0;
+    font-size: 1.125rem;
+    font-style: italic;
+    font-weight: 400;
+    width: 15.75rem;
+}

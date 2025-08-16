@@ -1,0 +1,68 @@
+@keyframes mexendoBackground {
+    0% {
+        background-position: 50% 30%;
+    }
+
+    25% {
+        background-position: 100% 10%;
+    }
+
+    50% {
+        background-position: 100% 90%;
+    }
+
+    75% {
+        background-position: 60% 90%
+    }
+
+    100% {
+        background-position: 50% 30%
+    }
+}
+
+@keyframes pulse {
+    0%, 100% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.02);
+    }
+}
+
+
+
+@keyframes rodando {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes pulseSeta {
+    0% {
+        transform: translateX(-50%) scale(1);
+    }
+
+    50% {
+        transform: translateX(-50%) scale(1.1);
+    }
+
+    100% {
+        transform: translateX(-50%) scale(1);
+    }
+}
+
+
+@keyframes bounceArrow {
+    0%, 100% {
+        transform: translateX(-50%) translateY(0);
+    }
+
+    50% {
+        transform: translateX(-50%) translateY(4px);
+    }
+}

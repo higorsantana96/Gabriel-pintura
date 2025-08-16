@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+    font-family: "Figtree";
+}
+
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+.cor-destaque {
+    color: var(--cor-amarelo);
+}
+
+.cor-destaque-dois {
+    color: #0020C3;
+}
+
+.texto-destaque {
+    font-weight: 700;
+}

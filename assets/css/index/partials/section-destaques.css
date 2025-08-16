@@ -1,0 +1,41 @@
+section.destaques {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 7.5rem;
+}
+.container-destaques {
+    display: flex;
+    max-width: 1440px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.destaque-um h3,
+.destaque-dois h3,
+.destaque-tres h3 {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.destaque-um p,
+.destaque-dois p,
+.destaque-tres p {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.destaque-um {
+    padding: 1.38rem 4.7rem;
+    border-right: 1px solid #B2B0B0;
+    border-radius: 1.25rem;
+}
+.destaque-dois {
+    padding: 1.38rem 3.5rem;
+    border-right: 1px solid #B2B0B0;
+    border-radius: 1.25rem;
+}
+.destaque-tres {
+    padding: 1.38rem 5.94rem;
+    border-radius: 1.25rem;
+}

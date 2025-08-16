@@ -1,0 +1,62 @@
+section.empresa {
+    background-image: url('../../../../files/images/empresa/background-empresa.png');
+    padding: 6.88rem 0;
+    background-attachment: fixed;
+}
+
+.container-empresa {
+    display: flex;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.logo-botao {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 7.44rem;
+}
+
+.btn-empresa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.06rem 1.56rem;
+    background-color: var(--cor-amarelo);
+    width: 33.375rem;
+    height: 4.0625rem;
+    border-radius: 0.625rem;
+    text-decoration: none;
+    color: var(--cor-preto);
+    font-size: 1.25rem;
+    font-weight: 400;
+    box-shadow: 4px 4px 10px 0px rgba(0, 0, 0, 0.72);
+    transition: all 0.3s ease;
+    gap: 1rem;
+    margin-top: 3.12rem;
+}
+
+.btn-empresa:hover {
+    background-color: var(--cor-branco);
+    box-shadow: 2px 2px 10px 0px rgba(255, 255, 255, 0.568);
+}
+
+.textos-empresa {
+    color: var(--cor-branco);
+}
+
+.textos-empresa h2 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 1.87rem;
+}
+
+.textos-empresa p {
+    font-size: 1.125rem;
+    font-weight: 400;
+}
+
+.textos-empresa .texto-um, .texto-dois {
+    margin-bottom: 1.25rem;
+}

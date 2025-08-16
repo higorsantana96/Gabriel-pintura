@@ -1,0 +1,13 @@
+@import '../global/global.css';
+
+@import './partials/nav.css';
+@import './partials/section-hero.css';
+@import './partials/section-destaques.css';
+@import './partials/section-servicos.css';
+@import './partials/section-como-trabalhamos.css';
+@import './partials/beneficios.css';
+@import './partials/section-obras-concluidas.css';
+@import './partials/section-depoimentos.css';
+@import './partials/section.empresa.css';
+@import './partials/chamada.css';
+@import './partials/footer.css';

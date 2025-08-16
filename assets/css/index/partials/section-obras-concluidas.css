@@ -1,0 +1,102 @@
+section.obras {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-top: 6.88rem;
+    padding-bottom: 6.88rem;
+    text-align: center;
+    background: linear-gradient(4deg, #243CB4 9.4%, #00126B 81.14%);
+}
+
+.titulos-obras h2 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 1.25rem;
+    color: var(--cor-branco);
+}
+
+.titulos-obras h3 {
+    font-size: 1.125rem;
+    font-weight: 400;
+    margin-bottom: 5rem;
+    color: var(--cor-branco);
+}
+
+section.obras .itens {
+    display: flex;
+    justify-content: flex-start;
+    overflow-x: scroll;
+    width: calc(100% - 200px);
+    padding: 10px 0;
+    cursor: e-resize;
+  }
+  section.obras .itens:active {
+    cursor: grabbing;
+  }
+  /* scrollbar */
+  section.obras .itens {
+    scrollbar-color: var(--cor-primaria) var(--cor-amarelo);
+    scrollbar-width: thin;
+  }
+  section.obras .itens::-webkit-scrollbar-track {
+    background-color: var(--cor-primaria);
+    height: 10px;
+    border-radius: 10px;
+  }
+  section.obras .itens::-webkit-scrollbar {
+    height: 10px;
+    border-radius: 10px;
+  }
+  section.obras .itens::-webkit-scrollbar-thumb {
+    background-color: var(--cor-primaria);
+    border: 2px solid var(--cor-amarelo);
+    height: 10px;
+    border-radius: 10px;
+  }
+  /* item */
+  section.obras .itens .item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 400px;
+    min-width: 400px;
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 15px;
+    margin: 0 40px 30px 7px;
+    position: relative;
+  }
+  
+  section.obras .itens .item img {
+    width: 400px;
+    height: 500px;
+    box-shadow: 6px 7px 2px 0 rgba(0, 0, 0, 0.452);
+    border-radius: 10px;
+    transition: all 0.4s ease;
+  }
+
+  .legenda {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 15px;
+    background: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    font-size: 1rem;
+    opacity: 0;
+    transform: translateY(80%);
+    transition: all 0.4s ease;
+    border-radius: 10px;
+  }
+
+  .item:hover img {
+    transform: scale(1.02);
+  }
+  
+  .item:hover .legenda {
+    opacity: 1;
+    transform: translateY(0);
+  }

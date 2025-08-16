@@ -1,0 +1,123 @@
+section.beneficios.parallax {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-position: 50% 50%;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 6.88rem;
+    overflow: hidden;
+    position: relative;
+}
+
+section.parallax-1 {
+    background-image: url('../../../../files/images/diferencial/background-beneficios.png');
+}
+
+.container-beneficios {
+    margin: 0 auto;
+    max-width: 1440px;
+}
+
+.textos-beneficios {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.textos-beneficios h2 {
+    margin-top: 6.87rem;
+    margin-bottom: 1.25rem;
+    font-size: 3rem;
+    font-weight: 700;
+    color: var(--cor-branco);
+}
+
+.textos-beneficios h3 {
+    font-size: 1.125rem;
+    font-weight: 400;
+    color: var(--cor-branco);
+    margin-bottom: 3.75rem;
+}
+
+.caixa-beneficios {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.25rem;
+}
+
+.caixa-um, .caixa-dois, .caixa-tres, .caixa-quatro, .caixa-cinco, .caixa-seis {
+    display: flex;
+    background: rgba(255, 255, 255, 0.04);
+    width: 44.375rem;
+    height: 8.9375rem;
+    border: 1px solid rgba(255, 255, 255, 0.21);
+    border-radius: 1.25rem;
+    backdrop-filter: blur(21.20px);
+}
+
+.caixa-um:hover, .caixa-dois:hover, .caixa-tres:hover, .caixa-quatro:hover, .caixa-cinco:hover, .caixa-seis:hover {
+    background-color: rgba(255, 255, 255, 0.13);
+    transform: scale(1.01);
+    border: 1px solid rgba(255, 255, 255, 0.692);
+}
+
+.caixa-um img, .caixa-dois img, .caixa-tres img, .caixa-quatro img, .caixa-cinco img, .caixa-seis img {
+    margin: 2.25rem 1.87rem 0 1.87rem;
+}
+
+.textos-caixa-um h4,
+.textos-caixa-dois h4,
+.textos-caixa-tres h4,
+.textos-caixa-quatro h4,
+.textos-caixa-cinco h4,
+.textos-caixa-seis h4 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--cor-branco);
+    margin-top: 1.87rem;
+    margin-bottom: 0.63rem;
+}
+
+.textos-caixa-um p,
+.textos-caixa-dois p,
+.textos-caixa-tres p,
+.textos-caixa-quatro p,
+.textos-caixa-cinco p,
+.textos-caixa-seis p {
+    font-size: 1.125rem;
+    font-weight: 400;
+    color: var(--cor-branco);
+}
+
+.btn-beneficios {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.06rem 1.56rem;
+    background-color: var(--cor-amarelo);
+    width: 33.375rem;
+    height: 4.0625rem;
+    border-radius: 0.625rem;
+    text-decoration: none;
+    color: var(--cor-preto);
+    font-size: 1.25rem;
+    font-weight: 400;
+    margin: 0 auto;
+    margin-top: 3.75rem;
+    gap: 1rem;
+    box-shadow: 4px 4px 10px 0px rgba(0,0,0,0.72);
+    transition: all 0.3s ease;
+}
+
+.pulse {
+    animation: pulse 2s ease infinite;
+}
+
+.btn-beneficios:hover {
+    background-color: var(--cor-branco);
+    box-shadow: 2px 2px 10px 0px rgba(255, 255, 255, 0.568);
+}

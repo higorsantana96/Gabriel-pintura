@@ -1,0 +1,21 @@
+html {
+    scrollbar-color: var(--cor-amarelo) var(--cor-primaria);
+    scrollbar-width: thin;
+  }
+  ::-webkit-scrollbar-track {
+    background-color: var(--cor-primaria);
+    width: 4px;
+    height: 4px;
+    border-radius: 10px;
+  }
+  ::-webkit-scrollbar {
+    width: 4px;
+    height: 4px;
+    border-radius: 10px;
+  }
+  ::-webkit-scrollbar-thumb {
+    background-color: var(--cor-amarelo);
+    width: 4px;
+    height: 4px;
+    border-radius: 10px;
+  }
