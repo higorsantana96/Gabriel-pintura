@@ -1,10 +1,11 @@
 section.hero {
     display: flex;
     justify-content: space-between;
-    background: radial-gradient(circle at 70%,#4866fd 10%,#00126b 30%);
+    background: radial-gradient(circle at 70%, #4866fd 10%, #00126b 30%);
     background-size: 400% 400%;
     animation: mexendoBackground 15s ease-in-out infinite;
 }
+
 section.hero h1 {
     margin-left: 14.81rem;
     max-width: 53.75rem;
@@ -48,7 +49,7 @@ section.hero h1 {
     font-weight: 400;
     margin-left: 15.06rem;
     gap: 1rem;
-    box-shadow: 4px 4px 10px 0px rgba(0,0,0,0.72);
+    box-shadow: 4px 4px 10px 0px rgba(0, 0, 0, 0.72);
     transition: all 0.3s ease;
 }
 
@@ -63,14 +64,14 @@ section.hero h1 {
 
 .btn-hero::before {
     content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 0%;
-  height: 100%;
-  background: #00126B;
-  transition: width 0.4s ease-in-out;
-  z-index: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    background: #00126B;
+    transition: width 0.4s ease-in-out;
+    z-index: 0;
 }
 
 
@@ -81,8 +82,135 @@ section.hero h1 {
     align-items: end;
 }
 
-.img-background-hero img{
+.img-background-hero img {
     min-width: 50.33rem;
     height: 46.25rem;
     clip-path: polygon(18% 0, 100% 0%, 100% 100%, 0% 100%);
+}
+
+.btn-hero-mobile {
+    display: none;
+
+}
+
+.img-background-hero-mobile {
+    display: none;
+}
+
+@media screen and (max-width: 767px) {
+    section.hero {
+        position: relative;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        animation: none;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    section.hero h1 {
+        margin-left: 0;
+        max-width: 21.4375rem;
+        font-size: 2.375rem;
+        margin-top: 8.06rem;
+        margin-bottom: 1.25rem;
+        text-align: center;
+    }
+
+    .sub-titulo-um,
+    .sub-titulo-dois {
+        position: relative;
+        text-align: center;
+        display: flex;
+        margin-left: 0;
+        gap: 0.70rem;
+        color: var(--cor-branco);
+        font-size: 0.875rem;
+        font-weight: 400;
+    }
+
+    .sub-titulo-um {
+        margin-bottom: 1.25rem;
+    }
+
+    .sub-titulo-dois {
+        margin-bottom: 3.12rem;
+    }
+
+    .btn-hero {
+        display: none;
+    }
+
+    .btn-hero-mobile {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 21.4375rem;
+        height: 4.0625rem;
+        padding: 1.09rem 3.59rem;
+        background-color: var(--cor-amarelo);
+        border-radius: 0.625rem;
+        text-decoration: none;
+        color: var(--cor-preto);
+        font-size: 1.125rem;
+        font-weight: 400;
+        margin-left: 0;
+        gap: 1rem;
+        box-shadow: 4px 4px 10px 0px rgba(0, 0, 0, 0.72);
+        transition: all 0.3s ease;
+        margin-bottom: 3.12rem;
+    }
+
+    .btn-hero-mobile:hover {
+        background-color: var(--cor-branco);
+        box-shadow: 2px 2px 10px 0px rgba(255, 255, 255, 0.568);
+    }
+    
+    .btn-hero-mobile::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 0%;
+        height: 100%;
+        background: #00126B;
+        transition: width 0.4s ease-in-out;
+        z-index: 0;
+    }
+    
+
+    .rolo-botao-hero {
+        width: 1.875rem;
+        height: 1.875rem;
+    }
+
+
+
+    .pulse {
+        animation: pulse 2s ease infinite;
+    }
+
+    .btn-hero:hover {
+        background-color: var(--cor-branco);
+        box-shadow: 2px 2px 10px 0px rgba(255, 255, 255, 0.568);
+    }
+
+    .btn-hero::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background: rgba(0, 0, 0, 0.5);
+        z-index: 1;
+    }
+
+    .img-background-hero {
+        display: none;
+    }
+
+    .img-background-hero-mobile {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+    }
 }

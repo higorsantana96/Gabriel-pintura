@@ -71,3 +71,45 @@ li {
     width: 12.76913rem;
     height: 2.40125rem;
 }
+
+@media screen and (max-width: 767px) {
+    .navbar {
+        margin-top: 2.44rem;
+        margin-bottom: 0;
+        height:3.75rem;
+    }
+    
+    .container-navbar {
+        max-width: 767px;
+    }
+    
+    .menu {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 2.44rem;
+        right: 0;
+        width: 50%;
+        padding: 1rem 0;
+        gap: 1.5rem;
+        z-index: 999;
+    }
+    
+    .menu.active {
+        display: flex;
+    }
+    
+    .menu-alternar {
+        display: block;
+        position: absolute;
+        right: 1rem;
+        color: var(--branco);
+        font-size: 3rem;
+    }
+    
+    .logo-nav img {
+        width: 8.875rem;
+        height: 1.6875rem;
+        color: var(--cor-amarelo);
+    }
+}
