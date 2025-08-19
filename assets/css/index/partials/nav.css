@@ -76,11 +76,12 @@ li {
     .navbar {
         margin-top: 2.44rem;
         margin-bottom: 0;
+        max-width: 767px;
+        max-width: 21.4375rem;
         height:3.75rem;
     }
     
     .container-navbar {
-        max-width: 767px;
     }
     
     .menu {
