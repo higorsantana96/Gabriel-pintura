@@ -103,7 +103,10 @@ section.hero h1 {
         flex-direction: column;
         align-items: center;
         overflow: hidden;
+        height: 100%;
         padding-bottom: 8.81rem;
+        background: linear-gradient(90deg, #243CB4 1.85%, #00126B 98.91%);
+        animation: none;
     }
 
     section.hero::after {
