@@ -1,5 +1,5 @@
 section.servicos {
-    background: linear-gradient(135deg, #243CB4 24.79%, #00126B 74.54%);  
+    background: linear-gradient(90deg, #243CB4 1.85%, #00126B 98.91%);  
 }
 
 .container-servicos {
@@ -150,11 +150,11 @@ section.servicos {
     box-shadow: 4px 4px 4px 0 #000000;
 }
 
-.linha {
-    background-color: rgba(255, 255, 255, 0.4);
-    width: 62.5rem;
-    height: 0.0625rem;
-    margin: 0 auto;
+.linha-servico {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
     margin-top: 6.88rem;
 }
 

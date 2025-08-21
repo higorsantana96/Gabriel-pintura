@@ -1,8 +1,7 @@
 section.como-trabalhamos {
     padding-top: 6.88rem;
     padding-bottom: 6.88rem;
-    background: linear-gradient(42deg, #243CB4 24.79%, #00126B 74.54%);
-    text-align: center;
+    background: linear-gradient(90deg, #243CB4 1.85%, #00126B 98.91%);
     color: var(--cor-branco);
     position: relative;
     overflow: hidden;
@@ -19,6 +18,7 @@ section.como-trabalhamos {
     font-size: 3rem;
     font-weight: 700;
     margin-bottom: 1.25rem;
+    text-align: center;
 }
 
 .titulos-trabalhamos h3 {
@@ -26,17 +26,21 @@ section.como-trabalhamos {
     font-style: normal;
     font-weight: 400;
     margin-bottom: 5rem;
+    text-align: center;
 }
 
 .itens-trabalhamos h4 {
     font-size: 1.25rem;
     font-weight: 700;
-    margin: 1.25rem 0 1.25rem 0;
+    margin-left: 1.62rem;
+    margin: 1.25rem 0 1.25rem 1.62rem;
 }
 
 .itens-trabalhamos p {
     font-size: 1rem;
     font-weight: 400;
+    max-width: 25.9375rem;
+    margin: 0 auto;
 }
 
 .itens-trabalhamos {
@@ -61,29 +65,4 @@ section.como-trabalhamos {
     border: 1px solid rgba(255, 255, 255, 0.50);
     background-color: rgba(255, 255, 255, 0.021);
     transform: scale(1.02);
-}
-
-.itens-trabalhamos .item-um p{
-    max-width: 24.8125rem;
-    margin: 0 2.19rem 2.44rem 2.19rem;
-}
-.itens-trabalhamos .item-dois p{
-    max-width: 26.75rem;
-    margin: 0 1.16rem 2.44rem 1.16rem;
-}
-.itens-trabalhamos .item-tres p{
-    max-width: 24.4375rem;
-    margin: 0 2.3rem 2.44rem 2.30rem;
-}
-.itens-trabalhamos .item-quatro p{
-    max-width: 26rem;
-    margin: 0 1.5rem 1.25rem 1.5rem;
-}
-.itens-trabalhamos .item-cinco p{
-    max-width: 23.75rem;
-    margin: 0 2.6rem 2.44rem 2.6rem;
-}
-.itens-trabalhamos .item-seis p{
-    max-width: 22.4375rem;
-    margin: 0 3.3rem 2.44rem 3.3rem;
 }

@@ -2,6 +2,10 @@ section.empresa {
     background-image: url('../../../../files/images/empresa/background-empresa.png');
     padding: 6.88rem 0;
     background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 3.125rem;
 }
 
 .container-empresa {
@@ -14,8 +18,8 @@ section.empresa {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    margin-right: 7.44rem;
+    align-items: start;   
+    margin-right: 6.19rem;
 }
 
 .btn-empresa {
@@ -54,7 +58,7 @@ section.empresa {
 
 .textos-empresa p {
     font-size: 1.125rem;
-    font-weight: 400;
+    font-weight: 00;
 }
 
 .textos-empresa .texto-um, .texto-dois {

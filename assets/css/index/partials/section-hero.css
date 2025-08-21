@@ -103,9 +103,7 @@ section.hero h1 {
         flex-direction: column;
         align-items: center;
         overflow: hidden;
-        height: 100%;
         padding-bottom: 8.81rem;
-        animation: none;
     }
 
     section.hero::after {
@@ -115,10 +113,8 @@ section.hero h1 {
         left: 0;
         width: 100%;
         height: calc(100% - 24.9375rem);
-        background: radial-gradient(circle at 70%, #4866fd 10%, #00126b 30%);
-        background-size: 400% 400%;
-        background-repeat: no-repeat;
-        animation: mexendoBackground 15s ease-in-out infinite;
+        background: linear-gradient(184deg, #243CB4 5.71%, #00126B 88.09%);
+        animation: none;
         z-index: 0;
     }
 
@@ -131,6 +127,7 @@ section.hero h1 {
         width: 100%;
         padding: 0 1rem;
         text-align: center;
+        animation: none;
     }
 
     section.hero h1 {

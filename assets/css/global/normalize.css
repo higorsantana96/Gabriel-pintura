@@ -10,6 +10,7 @@
 
 html {
     scroll-behavior: smooth;
+    background: linear-gradient(90deg, #243CB4 1.85%, #00126B 98.91%);
 }
 
 .cor-destaque {

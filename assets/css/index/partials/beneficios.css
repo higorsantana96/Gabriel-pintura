@@ -4,11 +4,13 @@ section.beneficios.parallax {
     justify-content: center;
     background-position: 50% 50%;
     background-attachment: fixed;
+    background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     padding-bottom: 6.88rem;
     overflow: hidden;
     position: relative;
+    border-radius: 3.125rem;
 }
 
 section.parallax-1 {
